@@ -8,7 +8,7 @@ Welcome to MyApp!
 The home page provides a visually  interface with  a button for seamless navigation to the next screen.
 
 ### Home Page Image
-![Capture d'écran 2024-01-25 000936](https://github.com/HajjiRoua/kotlin_project/assets/98911803/c4d47adc-e1b3-49db-97e8-0575c0c48d32)
+![Capture d'écran 2024-01-25 001433](https://github.com/HajjiRoua/kotlin_project/assets/98911803/88c42aa0-bf13-4745-8e6f-43e8b83abeda)
 
 ### Navigate to Next Screen
 
