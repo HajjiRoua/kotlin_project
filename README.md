@@ -14,7 +14,7 @@ The home page provides a visually  interface with  a button for seamless navigat
 
 To navigate to the next screen, simply tap the "View Stories" button.
 
-##" List of Stories
+### List of Stories
  we can see in this screen a list of stories on which we can apply a filter.
  
 ### Story List
