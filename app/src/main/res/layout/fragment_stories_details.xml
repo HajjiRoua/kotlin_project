@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fragment_storie_details.xml -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/textTitle"
+                style="@style/TitleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000080"
+                android:text="Title" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/textAbstractLabel"
+                style="@style/storieDetailsTextLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#006400"
+                android:paddingRight="10dp"
+                android:text="Abstract" />
+
+            <TextView
+                android:id="@+id/textAbstract"
+                style="@style/storieDetailsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abstract" />
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/textBylineLabel"
+            style="@style/storieDetailsTextLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#006400"
+            android:paddingRight="10dp"
+            android:text="Byline" />
+
+        <TextView
+            android:id="@+id/textByline"
+            style="@style/storieDetailsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Byline" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/textPublishedDateLabel"
+                style="@style/storieDetailsTextLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#006400"
+                android:paddingRight="10dp"
+                android:text="Published Date" />
+
+            <TextView
+                android:id="@+id/textPublishedDate"
+                style="@style/storieDetailsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Published Date" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+

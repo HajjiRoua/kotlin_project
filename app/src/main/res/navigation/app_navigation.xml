@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.storieapp.UI.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_storiesFragment"
+            app:destination="@id/storiesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/storiesFragment"
+        android:name="com.example.storieapp.UI.storiesFragment"
+        android:label="fragment_stories"
+        tools:layout="@layout/fragment_stories" >
+        <action
+            android:id="@+id/action_storiesFragment_to_storieDetailsFragment"
+            app:destination="@id/storieDetailsFragment"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/storieDetailsFragment"
+        android:name="com.example.storieapp.UI.storiesDetailsFragment"
+        android:label="fragment_storie_details"
+        tools:layout="@layout/fragment_stories_details" />
+    <fragment
+        android:id="@+id/storieListDetailsFragment"
+        android:name="com.example.storieapp.UI.storiesListDetailsFragment"
+        android:label="fragment_storie_list_details"
+        tools:layout="@layout/fragment_stories_list_details" />
+    <fragment
+        android:id="@+id/connectivityFragment"
+        android:name="com.example.storieapp.UI.ConnectivityFragment"
+        android:label="fragment_connectivity"
+        tools:layout="@layout/fragment_connectivity" />
+</navigation>
